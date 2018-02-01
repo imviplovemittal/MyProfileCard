@@ -54,7 +54,8 @@
                         android:textSize="15sp"
                         android:textColor="@color/colorPrimary"
                         android:id="@+id/user_email"
-                        android:layout_below="@+id/user_name" />
+                        android:layout_below="@+id/user_dept"
+                        android:layout_marginBottom="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -63,7 +64,7 @@
                         android:textSize="15sp"
                         android:textColor="@color/colorPrimary"
                         android:id="@+id/user_id"
-                        android:layout_below="@+id/user_email" />
+                        android:layout_below="@+id/user_name" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -72,8 +73,7 @@
                         android:text="Software Engineering"
                         android:textColor="@color/colorPrimary"
                         android:id="@+id/user_dept"
-                        android:layout_below="@+id/user_id"
-                        android:layout_marginBottom="10dp"/>
+                        android:layout_below="@+id/user_id"/>
 
                 </RelativeLayout>
                 <LinearLayout
